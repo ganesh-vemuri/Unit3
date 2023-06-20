@@ -4,7 +4,7 @@ var router = express.Router();
 
 // Models
 var TeamController = require("../dbmodels/team");
-const RootController = require("../controllers/rootController");
+const RootController = require("../controllers/teamController");
 
 router.get("/getPlayerDetails", async (req, res) => {
   try {
